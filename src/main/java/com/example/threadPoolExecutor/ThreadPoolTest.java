@@ -3,7 +3,7 @@ package com.example.threadPoolExecutor;
 import org.springframework.scheduling.annotation.Async;
 import po.PriceReqDTO;
 
-import static com.example.threadPoolExecutor.threadpool.ThreadPoolAsyncConfig.PRICER_REQUEST_EXECUTOR;
+import static com.example.threadPoolExecutor.threadpool.ThreadPoolAsyncConfig.*;
 
 public class ThreadPoolTest {
 
