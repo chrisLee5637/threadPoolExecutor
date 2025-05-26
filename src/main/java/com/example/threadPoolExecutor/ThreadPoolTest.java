@@ -11,13 +11,6 @@ public class ThreadPoolTest {
     public void processPriceRequest(PriceReqDTO priceReqDTO){
 
     }
-    public static final String PULL_PRICER_REQUEST_EXECUTOR = "pullPricerRequestExecutor";
-
-    public static final String COMMON_EMAIL_SENDING_EXECUTOR = "commonEmailSendingExecutor";
-
-    public static final String UI_REFRESH_NOTIFICATION_EXECUTOR = "uiRefreshNotificationExecutor";
-
-    public static final String DEFAULT_DEFAULT_EXECUTOR = "systemDefaultExecutor";
     @Async(PULL_PRICER_REQUEST_EXECUTOR)
     public void pullPricerRequest(PriceReqDTO priceReqDTO){
 
